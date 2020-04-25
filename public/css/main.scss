@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+.page{
+    height: 100%;
+    width: 100%;
+}
+#introPage{
+  background-image: url(../images/webb.png);
+}
+#servicePage{
+  background-color: #073642;
+}
+#portfolioPage{
+  background-image: url(../images/webb.png);
+}
+#aboutPage{
+  background-color: #073642;
+}
+nav{
+	padding: 10px;
+	border-bottom: 5px solid black;
+}
+.nav-link{
+	color: white !important;
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+.nav-link:hover{
+	background-color: white;
+	border-radius: 10px;
+	color: #007bff !important;
+}
+.nav-link.active{
+	background-color: white;
+	border-radius: 10px;
+	color: #007bff !important;
+}
+nav .navbar-brand{
+	font-size: 30px;
+}
+.navbar.scrolled{
+	opacity: 0.95;
+	transition: background 500ms;
+}
+.navbar-toggler-icon{
+	color: red;
+}
+.dropdown-menu{
+	background-color: #293038;
+}
+.dropdown-item{
+	color: white !important;
+}
+.dropdown-item:hover{
+	color: #007bff !important;
+}
+%navValues{
+  border-radius: 25px;
+  border-style: solid;
+  border-width: thick;
+}
+%navLinkValues{
+  border-radius: 25px;
+  margin: 0;
+}
+.rightNavbar{
+ @extend %navValues;
+}
+.rightNavbar .nav-link{
+  @extend %navLinkValues
+}
+.centerNavbar{
+  @extend %navValues;
+}
+
+.centerNavbar .nav-link{
+  @extend %navLinkValues
+}
