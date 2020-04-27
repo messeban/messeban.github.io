@@ -24,7 +24,7 @@
   <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav id="thisNavbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="#">ESB Solutions</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
       aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,13 +45,8 @@
         <li class="nav-item">
           <a class="nav-link" href="#aboutPage">About</a>
         </li>
-      </ul>
-      <ul class="navbar-nav rightNavbar ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Sign Up<span class="sr-only">(current)</span></a>
-        </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sign In</a>
+          <a class="nav-link" href="#contactPage">Contact</a>
         </li>
       </ul>
     </div>
@@ -59,28 +54,140 @@
   <div id="introPage" class="page container-fluid">
     <div class="row align-items-center h-100">
       <div class="col-6 mx-auto">
-        <div class="jumbotron">
-          I'm vertically centered
+        <div class="jumbotron personalDescription py-3" style="text-align: right;">
+          <h2 class=>Hello World!</h2>
+          <p>My name is <span class="name">Mourad Essebane</span>. <br> I'm a Freelance Software Developer.</p>
         </div>
       </div>
     </div>
   </div>
 
   <div id="servicePage" class="page container-fluid">
-    <div class="row align-items-center h-100">
-      <div class="col-6 mx-auto">
-        <div class="jumbotron">
-          I'm Services
-        </div>
+    <div class="page row text-center align-items-center justify-content-center">
+      <div class="col-md-4">
+        <img src="./public/images/icons8-e-commerce-96.png" alt="">
+        <h4 class="my-3">E-Commerce</h4>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
+          quo inventore harum ex magni, dicta impedit.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="./public/images/icons8-web-design-96 (1).png" alt="">
+        <h4 class="my-3">Responsive Design</h4>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
+          quo inventore harum ex magni, dicta impedit.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="./public/images/icons8-privacy-96.png" alt="">
+        <h4 class="my-3">Web Security</h4>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
+          quo inventore harum ex magni, dicta impedit.</p>
       </div>
     </div>
   </div>
 
-  <div id="portfolioPage" class="page container-fluid">
-    <div class="row align-items-center h-100">
-      <div class="col-6 mx-auto">
-        <div class="jumbotron">
-          I'm Portfolio
+  <div id="portfolioPage" class="container-fluid">
+    <h1 class="pt-4" style="text-align: center;">Portfolio</h1>
+    <div class="row align-items-center justify-content-center h-100 pb-5">
+      <div class="card col-12 col-sm-12 col-md-10 col-lg-5 col-xl-3 px-0 m-3">
+        <div class="card-header">
+          Bash
+        </div>
+        <img src="./public/images/net.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Custom Scripts</h5>
+          <p class="card-text">Custom Scripts written in Bash</p>
+          <a href="https://www.github.com/messeban/Custom_Scripts"><img src="./public/images/GitHub-Mark-32px.png"
+              alt="Github" height="32" width="32"></a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-10 col-lg-5 col-xl-3 px-0 m-3">
+        <div class="card-header">
+          Bash
+        </div>
+        <img src="./public/images/JavaScript.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Custom Scripts</h5>
+          <p class="card-text">Custom Scripts written in Bash</p>
+          <a href="https://www.github.com/messeban/Custom_Scripts"><img src="./public/images/GitHub-Mark-32px.png"
+              alt="Github" height="32" width="32"></a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-10 col-lg-5 col-xl-3 px-0 m-3">
+        <div class="card-header">
+          Bash
+        </div>
+        <img src="./public/images/HTML.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Custom Scripts</h5>
+          <p class="card-text">Custom Scripts written in Bash</p>
+          <a href="https://www.github.com/messeban/Custom_Scripts"><img src="./public/images/GitHub-Mark-32px.png"
+              alt="Github" height="32" width="32"></a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-10 col-lg-5 col-xl-3 px-0 m-3">
+        <div class="card-header">
+          Bash
+        </div>
+        <img src="./public/images/Java.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Custom Scripts</h5>
+          <p class="card-text">Custom Scripts written in Bash</p>
+          <a href="https://www.github.com/messeban/Custom_Scripts"><img src="./public/images/GitHub-Mark-32px.png"
+              alt="Github" height="32" width="32"></a>
+        </div>
+      </div>
+      <div class="card col-12 col-sm-12 col-md-10 col-lg-5 col-xl-3 px-0 m-3">
+        <div class="card-header">
+          Bash
+        </div>
+        <img src="./public/images/net.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Custom Scripts</h5>
+          <p class="card-text">Custom Scripts written in Bash</p>
+          <a href="https://www.github.com/messeban/Custom_Scripts"><img src="./public/images/GitHub-Mark-32px.png"
+              alt="Github" height="32" width="32"></a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-10 col-lg-5 col-xl-3 px-0 m-3">
+        <div class="card-header">
+          Bash
+        </div>
+        <img src="./public/images/Shell.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Custom Scripts</h5>
+          <p class="card-text">Custom Scripts written in Bash</p>
+          <a href="https://www.github.com/messeban/Custom_Scripts"><img src="./public/images/GitHub-Mark-32px.png"
+              alt="Github" height="32" width="32"></a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-10 col-lg-5 col-xl-3 px-0 m-3">
+        <div class="card-header">
+          Bash
+        </div>
+        <img src="./public/images/Shell.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Custom Scripts</h5>
+          <p class="card-text">Custom Scripts written in Bash</p>
+          <a href="https://www.github.com/messeban/Custom_Scripts"><img src="./public/images/GitHub-Mark-32px.png"
+              alt="Github" height="32" width="32"></a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-10 col-lg-5 col-xl-3 px-0 m-3">
+        <div class="card-header">
+          Bash
+        </div>
+        <img src="./public/images/Shell.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Custom Scripts</h5>
+          <p class="card-text">Custom Scripts written in Bash</p>
+          <a href="https://www.github.com/messeban/Custom_Scripts"><img src="./public/images/GitHub-Mark-32px.png"
+              alt="Github" height="32" width="32"></a>
         </div>
       </div>
     </div>
@@ -95,26 +202,59 @@
       </div>
     </div>
   </div>
-  <footer id="contact" class="page-footer font-small blue">
 
-    <h1 style="text-align: center;">Contact:</h1>
+
+
+  <div id="contactPage" class="page container-fluid">
+
+    <div class="row align-items-center h-100">
+
+      <form action="/contact" method="POST" class="form col-md-6 mx-auto">
+        <h1 class="pageHeader">Contact</h1>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="firstName">First Name</label>
+            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+        </div>
+        <div class="form-group">
+          <label for="githubUsername">Message</label>
+          <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+        </div>
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+    </div>
+  </div>
+
+  <footer id="footerPage" class="page-footer font-small blue">
+
+    <h1 style="text-align: center;">Other Contact Options:</h1>
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
 
       <!-- Grid row -->
       <div class="row justify-content-around">
-
-        <!-- Grid column -->
-        <div class="col-md-4 mt-md-0 mt-3" style="text-align: center;">
-          <h5 class="text-uppercase">Adres:</h5>
-          <a href="https://goo.gl/maps/wqxSZCgCbaDkMqPBA">Rue des Chalets 24, <br> 1082 Berchem-Sainte-Agathe</a>
-
-        </div>
         <div class="col-md-4 mt-md-0" style="text-align: center;">
           <h5 class="text-uppercase">Links:</h5>
 
-          <div> <a href="https://www.github.com/messeban/"><img src="./public/images/GitHub-Mark-32px.png" alt="GitHub" height="32" width="32"></a>
-                <a href="https://www.github.com/messeban/"><img src="./public/images/LinkedIn-Logos/LI-In-Bug.png" alt="LinkedIn" height="32" width="38"></a>
+          <div> <a href="https://www.github.com/messeban/"><img src="./public/images/GitHub-Mark-32px.png" alt="GitHub"
+                height="32" width="32"></a>
+            <a href="https://www.github.com/messeban/"><img src="./public/images/LinkedIn-Logos/LI-In-Bug.png"
+                alt="LinkedIn" height="32" width="38"></a>
           </div>
         </div>
         <div class="col-md-4 mt-md-0" style="text-align: center;">

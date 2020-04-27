@@ -5,8 +5,8 @@ html, body {
 }
 
 .page {
-  height: 100%;
-  width: 100%;
+  height: 100% !important;
+  width: 100% !important;
 }
 
 #introPage {
@@ -25,9 +25,14 @@ html, body {
   background-color: #073642;
 }
 
+#contactPage {
+  background-image: url(../images/webb.png);
+}
+
 nav {
   padding: 10px;
   border-bottom: 5px solid black;
+  height: 7% !important;
 }
 
 .nav-link {
@@ -53,7 +58,7 @@ nav .navbar-brand {
 }
 
 .navbar.scrolled {
-  opacity: 0.95;
+  background-color: rgba(7, 54, 66, 0.75) !important;
   transition: background 500ms;
 }
 
@@ -83,5 +88,47 @@ nav .navbar-brand {
   border-radius: 25px;
   margin: 0;
 }
+
+.form {
+  border-radius: 20px;
+  color: white;
+  padding: 20px;
+  background-color: #073642;
+  margin: 0;
+}
+
+.pageHeader {
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.personalDescription {
+  border-radius: 25px;
+}
+
+/*----------*/
+/*Card*/
+.card {
+  color: black;
+  border-radius: 25px;
+  background-color: white !important;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+}
+
+.card-header {
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: right;
+  background-color: inherit;
+  border-radius: 25px 25px 0px 0px !important;
+}
+
+/*----------*/
 
 /*# sourceMappingURL=main.css.map */
