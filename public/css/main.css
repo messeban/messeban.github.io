@@ -10,7 +10,8 @@ html, body {
 }
 
 #introPage {
-  background-image: url(../images/webb.png);
+  background-image: url(../images/LinkedIn-Logos/rodrigo-dos-reis-ct-CUb3N4qA-unsplash.jpg);
+  background-size: cover;
 }
 
 #servicePage {
@@ -18,7 +19,8 @@ html, body {
 }
 
 #portfolioPage {
-  background-image: url(../images/webb.png);
+  background-image: url(../images/LinkedIn-Logos/rodrigo-dos-reis-ct-CUb3N4qA-unsplash.jpg);
+  background-size: cover;
 }
 
 #aboutPage {
@@ -26,7 +28,8 @@ html, body {
 }
 
 #contactPage {
-  background-image: url(../images/webb.png);
+  background-image: url(../images/LinkedIn-Logos/rodrigo-dos-reis-ct-CUb3N4qA-unsplash.jpg);
+  background-size: cover;
 }
 
 nav {
