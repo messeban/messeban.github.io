@@ -173,6 +173,19 @@ nav .navbar-brand {
   #servicePage {
     height: auto;
   }
+
+  .contact {
+    height: auto !important;
+  }
+
+  .form {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+  }
+
+  html {
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

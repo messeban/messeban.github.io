@@ -10,12 +10,12 @@ $(function() {
   })
   window.sr = ScrollReveal();
   sr.reveal('.intro', {
-    duration: 2000,
+    duration: 1000,
     origin:'top',
     distance:'800px'
   });
   sr.reveal('.introText', {
-    duration: 3000,
+    duration: 2000,
     origin:'bottom',
     distance:'800px'
   });
@@ -36,13 +36,13 @@ $(function() {
     origin:'bottom'
   });
   sr.reveal('.card', {
-    duration: 2500,
+    duration: 1000,
     origin:'bottom',
-    distance:'300px',
+    distance:'100px',
     viewFactor: 0.4
   });
   sr.reveal('.form', {
-    duration: 2000,
+    duration: 1000,
     origin:'right',
     distance:'300px',
     viewFactor: 0.2
