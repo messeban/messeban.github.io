@@ -11,6 +11,7 @@ html, body {
 #introPage{
   background-image: url(../images/ivana-cajina-LlDQPnErFxo-unsplash.jpg);
   background-size: cover;
+  background-attachment: fixed;
 }
 #servicePage{
   background-color: #073642;
@@ -18,14 +19,17 @@ html, body {
 }
 #portfolioPage{
 	background-image: url(../images/rodrigo-dos-reis-ct-CUb3N4qA-unsplash.jpg);
-	background-size: cover;}
+	background-size: cover;
+	background-attachment: fixed;
+}
 #aboutPage{
   background-color: #073642;
 }
 #contactPage{
 	background-image: url(../images/jay-mantri-TFyi0QOx08c-unsplash.jpg);
 	background-size: cover;
-	background-position: 0% 60%;
+	background-position: center;
+	background-attachment: fixed;
 	height: 80%;
 }
 #footerpage{
