@@ -19,7 +19,7 @@ $(function() {
     origin:'bottom',
     distance:'800px'
   });
-  if(window.screen.width>750){
+  if(window.screen.width>=992){
     sr.reveal('#ecomService', {
       duration: 2000,
       origin:'bottom'
@@ -51,8 +51,7 @@ $(function() {
     sr.reveal('footer', {
       duration: 3000,
       origin:'bottom',
-      distance:'200px',
-      viewFactor: 0.2
+      distance:'300px'
     });
   }
 
