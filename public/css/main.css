@@ -9,6 +9,17 @@ html, body {
   width: 100% !important;
 }
 
+.intro {
+  background-color: rgba(7, 54, 66, 0.75);
+  border-radius: 25px;
+  padding: 25 !important;
+}
+
+.introText {
+  color: white;
+  text-align: right;
+}
+
 #introPage {
   background-image: url(../images/ivana-cajina-LlDQPnErFxo-unsplash.jpg);
   background-size: cover;
