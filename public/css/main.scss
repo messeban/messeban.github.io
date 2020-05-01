@@ -31,6 +31,7 @@ html, body {
 	background-image: url(../images/rodrigo-dos-reis-ct-CUb3N4qA-unsplash.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+	padding: 100px 0px 100px 0px !important;
 }
 #aboutPage{
   background-color: #073642;
@@ -73,7 +74,7 @@ nav{
 	border-top-left-radius: 0px !important;
 }
 .nav-link.active{
-	background-color: white;
+	background-color: white !important;
 	color: #007bff !important;
 }
 nav .navbar-brand{
@@ -119,11 +120,11 @@ nav .navbar-brand{
 }
 
 .form{
-	border-radius: 20px;
+	border-radius: 50px;
 	color: white;
-	padding: 20px;
-  background-color: #073642;
-  margin: 0;
+	padding: 25px;
+	background-color:rgba($color: #073642, $alpha: 0.75);
+  	margin: 0;
 }
 .pageHeader{
   color: white;
@@ -154,13 +155,16 @@ object-fit: cover;
 	background-color: inherit;
 	border-radius: 25px 25px 0px 0px !important;
 }
+.cardContainer{
+	border-radius: 50px;
+	color: white;
+	background-color:rgba($color: #073642, $alpha: 0.75);
+}
 
 /*----------*/
 @media only screen and (max-width: 750px) {
 	#servicePage {
 		height: auto !important;
-		padding-top: 50px;
-		padding-bottom: 50px;	
 	}
 	.contact{
 		height: auto !important;
