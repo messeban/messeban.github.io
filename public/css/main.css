@@ -70,13 +70,25 @@ nav {
 
 .nav-link:hover {
   background-color: white;
-  border-radius: 10px;
   color: #007bff !important;
+}
+
+.leftLink {
+  border-bottom-right-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+.centerLink {
+  border-radius: 0px !important;
+}
+
+.rightLink {
+  border-bottom-left-radius: 0px !important;
+  border-top-left-radius: 0px !important;
 }
 
 .nav-link.active {
   background-color: white;
-  border-radius: 10px;
   color: #007bff !important;
 }
 

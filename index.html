@@ -37,19 +37,19 @@
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav centerNavbar ml-auto">
         <li class="nav-item active">
-          <a data-scroll class="nav-link" href="#introPage">Home <span class="sr-only">(current)</span></a>
+          <a data-scroll class="nav-link leftLink" href="#introPage">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a data-scroll class="nav-link" href="#servicePage">Services</a>
+          <a data-scroll class="nav-link centerLink" href="#servicePage">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#portfolioPage">Portfolio</a>
+          <a class="nav-link centerLink" href="#portfolioPage">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#aboutPage">About</a>
+          <a class="nav-link centerLink" href="#aboutPage">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contactPage">Contact</a>
+          <a class="nav-link rightLink" href="#contactPage">Contact</a>
         </li>
       </ul>
     </div>
@@ -293,71 +293,6 @@
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.0/smooth-scroll.min.js"></script>
   <script src="./public/js/main.js"></script>
-  <script>
-    window.sr = ScrollReveal();
-    sr.reveal('.intro', {
-      duration: 2000,
-      origin:'top',
-      distance:'800px'
-    });
-    sr.reveal('.introText', {
-      duration: 3000,
-      origin:'bottom',
-      distance:'800px'
-    });
-    sr.reveal('#ecomService', {
-      duration: 2000,
-      origin:'bottom'
-    });
-    sr.reveal('#respService', {
-      duration: 4000,
-      origin:'bottom'
-    });
-    sr.reveal('#microService', {
-      duration: 6000,
-      origin:'bottom'
-    });
-    sr.reveal('#appService', {
-      duration: 8000,
-      origin:'bottom'
-    });
-    sr.reveal('.card', {
-      duration: 2500,
-      origin:'bottom',
-      distance:'300px',
-      viewFactor: 0.4
-    });
-    sr.reveal('.form', {
-      duration: 2000,
-      origin:'right',
-      distance:'300px',
-      viewFactor: 0.2
-    });
-    sr.reveal('footer', {
-      duration: 3000,
-      origin:'bottom',
-      distance:'200px',
-      viewFactor: 0.2
-    });
-</script>
-
-<script>
-$(function() {
-  // Smooth Scrolling
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-</script>
 </body>
 
 </html>

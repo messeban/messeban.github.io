@@ -8,4 +8,63 @@ $(function() {
       $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
     })
   })
-
+  window.sr = ScrollReveal();
+  sr.reveal('.intro', {
+    duration: 2000,
+    origin:'top',
+    distance:'800px'
+  });
+  sr.reveal('.introText', {
+    duration: 3000,
+    origin:'bottom',
+    distance:'800px'
+  });
+  sr.reveal('#ecomService', {
+    duration: 2000,
+    origin:'bottom'
+  });
+  sr.reveal('#respService', {
+    duration: 4000,
+    origin:'bottom'
+  });
+  sr.reveal('#microService', {
+    duration: 6000,
+    origin:'bottom'
+  });
+  sr.reveal('#appService', {
+    duration: 8000,
+    origin:'bottom'
+  });
+  sr.reveal('.card', {
+    duration: 2500,
+    origin:'bottom',
+    distance:'300px',
+    viewFactor: 0.4
+  });
+  sr.reveal('.form', {
+    duration: 2000,
+    origin:'right',
+    distance:'300px',
+    viewFactor: 0.2
+  });
+  sr.reveal('footer', {
+    duration: 3000,
+    origin:'bottom',
+    distance:'200px',
+    viewFactor: 0.2
+  });
+  $(function() {
+    // Smooth Scrolling
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
