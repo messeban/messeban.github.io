@@ -8,11 +8,6 @@ $(function() {
       $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
     })
   })
-
-  $('.navbar-nav .nav-link').click(function(){
-    $('.navbar-nav .nav-link').removeClass('active');
-    $(this).addClass('active');
-})
   window.sr = ScrollReveal();
   sr.reveal('.intro', {
     duration: 1000,
