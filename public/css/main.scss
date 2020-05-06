@@ -161,8 +161,7 @@ object-fit: cover;
 
 /*----------*/
 
-@media only screen and (max-width: 750px)  
-and (orientation : landscape){
+@media only screen and (max-width: 750px){
 	#servicePage {
 		height: auto !important;
 	}
