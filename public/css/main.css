@@ -173,7 +173,7 @@ nav .navbar-brand {
 }
 
 /*----------*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1200px) and (orientation: landscape) {
+@media only screen and (max-width: 750px) and (orientation: landscape) {
   #servicePage {
     height: auto !important;
   }
