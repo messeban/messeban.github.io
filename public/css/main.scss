@@ -25,7 +25,10 @@ html, body {
 }
 #servicePage{
   background-color: #073642;
-  height: 75%;
+}
+.serviceContainer{
+	height: 100%;
+	margin: 100px 0px 100px 0px;
 }
 #portfolioPage{
 	background-image: url(../images/rodrigo-dos-reis-ct-CUb3N4qA-unsplash.jpg);
