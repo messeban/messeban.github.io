@@ -195,7 +195,7 @@ nav .navbar-brand {
     font-size: 12px;
   }
 }
-@media (orientation: portrait) {
+@media (orientation: landscape) {
   #servicePage {
     height: auto !important;
   }
