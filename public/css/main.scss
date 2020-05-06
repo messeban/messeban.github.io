@@ -178,3 +178,19 @@ object-fit: cover;
 		font-size: 12px;
 	}
   }
+
+  @media (orientation: portrait){
+	#servicePage {
+		height: auto !important;
+	}
+	.contact{
+		height: auto !important;
+	}
+	.form{
+		margin-top: 50px !important;
+		margin-bottom: 50px !important;
+	}
+	html{
+		font-size: 12px;
+	}
+ }
