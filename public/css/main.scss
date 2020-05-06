@@ -79,6 +79,7 @@ nav{
 }
 nav .navbar-brand{
 	font-size: 30px;
+	text-shadow: -2px 0 darkblue, 0 2px darkblue, 2px 0 darkblue, 0 -2px darkblue;
 }
 .navbar.scrolled{
     background-color: rgba($color: #073642, $alpha: 0.75) !important;

@@ -19,7 +19,7 @@ $(function() {
     origin:'bottom',
     distance:'800px'
   });
-  if(window.screen.width>=992){
+  if((window.screen.width>=992)&&(window.screen.height>=992)){
     sr.reveal('#ecomService', {
       duration: 2000,
       origin:'bottom'
