@@ -151,6 +151,7 @@ nav .navbar-brand {
 /*----------*/
 /*Card*/
 .card {
+  height: 100%;
   color: black;
   border-radius: 25px;
   background-color: white !important;
