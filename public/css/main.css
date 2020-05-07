@@ -158,7 +158,7 @@ nav .navbar-brand {
 
 .card-img-top {
   width: 100%;
-  height: 25vh;
+  min-height: 25vh;
   object-fit: cover;
 }
 
