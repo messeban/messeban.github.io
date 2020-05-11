@@ -9,12 +9,12 @@ $(function() {
     })
   })
   window.sr = ScrollReveal();
-  sr.reveal('.intro', {
+  sr.reveal('#intro', {
     duration: 1000,
     origin:'top',
     distance:'800px'
   });
-  sr.reveal('.introText', {
+  sr.reveal('#introText', {
     duration: 2000,
     origin:'bottom',
     distance:'800px'

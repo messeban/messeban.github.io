@@ -4,20 +4,17 @@ html, body {
   font-family: "Roboto Mono", monospace;
 }
 
-.page {
-  height: 100%;
-  width: 100%;
-}
-
-.intro {
+#intro {
   background-color: rgba(7, 54, 66, 0.75);
   border-radius: 25px;
   padding: 25 !important;
-}
-
-.introText {
   color: white;
   text-align: right;
+}
+
+#introText {
+  color: #839496;
+  text-align: left;
 }
 
 #introPage {
@@ -26,11 +23,11 @@ html, body {
   background-attachment: fixed;
 }
 
-#servicePage {
+.inBetweenPage {
   background-color: #073642;
 }
 
-.serviceContainer {
+#serviceContainer {
   height: 100%;
   padding: 200px 0px 200px 0px;
 }
@@ -40,10 +37,6 @@ html, body {
   background-size: cover;
   background-attachment: fixed;
   padding: 100px 0px 100px 0px !important;
-}
-
-#aboutPage {
-  background-color: #073642;
 }
 
 #contactPage {
@@ -60,7 +53,6 @@ html, body {
 
 nav {
   padding: 10px;
-  border-bottom: 5px solid black;
 }
 
 .nav-link {
@@ -107,30 +99,18 @@ nav .navbar-brand {
   color: red;
 }
 
-.dropdown-menu {
-  background-color: #293038;
-}
-
-.dropdown-item {
-  color: white !important;
-}
-
-.dropdown-item:hover {
-  color: #007bff !important;
-}
-
-.centerNavbar, .rightNavbar {
+.navbar-nav {
   border-radius: 25px;
   border-style: solid;
   border-width: thick;
 }
 
-.centerNavbar .nav-link, .rightNavbar .nav-link {
+.navbar-nav .nav-link {
   border-radius: 25px;
   margin: 0;
 }
 
-.form {
+.contactForm {
   border-radius: 50px;
   color: white;
   padding: 25px;
@@ -155,11 +135,12 @@ nav .navbar-brand {
   border-radius: 25px;
   background-color: white !important;
   height: 100%;
+  width: 100%;
 }
 
 .card-img-top {
-  width: 100%;
-  height: 100%;
+  width: 470px;
+  height: 260px;
 }
 
 .card-header {
@@ -186,7 +167,7 @@ nav .navbar-brand {
     height: auto !important;
   }
 
-  .form {
+  .contactForm {
     margin-top: 50px !important;
     margin-bottom: 50px !important;
   }

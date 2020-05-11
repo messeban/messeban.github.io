@@ -3,19 +3,17 @@ html, body {
     width: 100%;
     font-family: 'Roboto Mono', monospace;
   }
-  
-.page{
-    height: 100%;
-	width: 100%;
-}
-.intro{
+
+#intro{
 	background-color: rgba($color: #073642, $alpha: 0.75);
 	border-radius: 25px;
 	padding: 25 !important;
-}
-.introText{
 	color: white;
 	text-align: right;
+}
+#introText{
+	color: #839496;
+	text-align: left;
 
 }
 #introPage{
@@ -23,10 +21,10 @@ html, body {
   background-size: cover;
   background-attachment: fixed;
 }
-#servicePage{
+.inBetweenPage{
   background-color: #073642;
 }
-.serviceContainer{
+#serviceContainer{
 	height: 100%;
 	padding: 200px 0px 200px 0px;
 }
@@ -35,9 +33,6 @@ html, body {
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 100px 0px 100px 0px !important;
-}
-#aboutPage{
-  background-color: #073642;
 }
 #contactPage{
 	background-image: url(../images/jay-mantri-TFyi0QOx08c-unsplash.jpg);
@@ -51,7 +46,6 @@ html, body {
 }
 nav{
 	padding: 10px;
-	border-bottom: 5px solid black;
 }
 .nav-link{
 	color: white !important;
@@ -88,39 +82,18 @@ nav .navbar-brand{
 .navbar-toggler-icon{
 	color: red;
 }
-.dropdown-menu{
-	background-color: #293038;
-}
-.dropdown-item{
-	color: white !important;
-}
-.dropdown-item:hover{
-	color: #007bff !important;
-}
-%navValues{
-  border-radius: 25px;
-  border-style: solid;
-  border-width: thick;
-}
-%navLinkValues{
-  border-radius: 25px;
-  margin: 0;
-}
-.rightNavbar{
- @extend %navValues;
-}
-.rightNavbar .nav-link{
-  @extend %navLinkValues
-}
-.centerNavbar{
-  @extend %navValues;
+.navbar-nav{
+	border-radius: 25px;
+	border-style: solid;
+	border-width: thick;
 }
 
-.centerNavbar .nav-link{
-  @extend %navLinkValues
+.navbar-nav .nav-link{
+	border-radius: 25px;
+	margin: 0;
 }
 
-.form{
+.contactForm{
 	border-radius: 50px;
 	color: white;
 	padding: 25px;
@@ -144,10 +117,11 @@ nav .navbar-brand{
 	border-radius: 25px;
 	background-color: white !important;
 	height: 100%;
+	width: 100%;
 }
 .card-img-top{
-	width: 100%;
-	height: 100%;
+	width: 470px;
+	height: 260px;
 	//object-fit: cover;
 }
 .card-header{
@@ -172,7 +146,7 @@ nav .navbar-brand{
 	.contact{
 		height: auto !important;
 	}
-	.form{
+	.contactForm{
 		margin-top: 50px !important;
 		margin-bottom: 50px !important;
 	}
