@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  width: 100%;
   font-family: "Roboto Mono", monospace;
   overflow-x: hidden;
 }
@@ -184,7 +185,8 @@ nav .navbar-brand {
   background-color: white;
   color: #007bff;
   border: none;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 30px 10px 30px;
+  margin: 10px;
 }
 
 @media only screen and (max-device-width: 1280px) and (orientation: landscape) {
