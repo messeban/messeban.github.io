@@ -184,7 +184,6 @@ nav .navbar-brand {
   color: #007bff;
   border: none;
   padding: 10px 30px 10px 30px;
-  margin: 10px;
 }
 
 @media only screen and (max-device-width: 1280px) and (orientation: landscape) {
