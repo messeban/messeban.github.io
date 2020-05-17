@@ -157,6 +157,28 @@ nav .navbar-brand {
 }
 
 /*----------*/
+@media only screen and (max-width: 750px) {
+  #servicePage {
+    height: auto !important;
+  }
+
+  .contact {
+    height: auto !important;
+  }
+
+  .contactForm {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+  }
+
+  html {
+    font-size: 12px;
+  }
+
+  #aboutPage {
+    height: auto !important;
+  }
+}
 .usedTech {
   border-radius: 10em;
   background-color: white;
