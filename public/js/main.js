@@ -42,6 +42,18 @@ $(function() {
       distance:'100px',
       viewFactor: 0.4
     });
+
+    sr.reveal('#aboutText', {
+      duration: 2000,
+      origin:'left',
+      distance:'800px'
+    });
+    sr.reveal('#tech', {
+      duration: 2000,
+      origin:'right',
+      distance:'800px'
+    });
+
     sr.reveal('.form', {
       duration: 1000,
       origin:'right',
