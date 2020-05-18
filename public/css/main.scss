@@ -44,9 +44,6 @@ html, body {
 #footerpage{
 	margin-bottom: 0 !important;
 }
-nav{
-	padding: 10px;
-}
 .nav-link{
 	color: white !important;
 	margin-left: 10px;
@@ -139,12 +136,6 @@ nav .navbar-brand{
 /*----------*/
 
 @media only screen and (max-width: 750px){
-	html,
-	body{
-	  width:100%;
-	  overflow-x:hidden;
-	}
-
 	#servicePage {
 		height: auto !important;
 	}
@@ -174,12 +165,6 @@ nav .navbar-brand{
 @media only screen  
 and (max-device-width : 1280px) 
 and (orientation : landscape){
-	html,
-	body{
-	  width:100%;
-	  overflow-x:hidden;
-	}
-
 	#servicePage {
 		height: auto !important;
 	}
