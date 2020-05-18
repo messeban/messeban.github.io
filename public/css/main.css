@@ -218,5 +218,12 @@ body {
     height: auto !important;
   }
 }
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+  html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
