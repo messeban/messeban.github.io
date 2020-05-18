@@ -8,7 +8,7 @@ $(function() {
       $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
     })
   })
- /* window.sr = ScrollReveal();
+  window.sr = ScrollReveal();
   sr.reveal('#intro', {
     duration: 1000,
     origin:'top',
@@ -19,7 +19,7 @@ $(function() {
     origin:'bottom',
     distance:'800px'
   });
-//  if((window.screen.width>=992)&&(window.screen.height>=992)){
+  if((window.screen.width>=992)&&(window.screen.height>=992)){
     sr.reveal('#ecomService', {
       duration: 2000,
       origin:'bottom'
@@ -65,7 +65,7 @@ $(function() {
       origin:'bottom',
       distance:'300px'
     });
-  //}*/
+  }
 
   $(function() {
     // Smooth Scrolling
